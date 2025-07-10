@@ -8,7 +8,7 @@ async function bootstrap() {
       'https://frontnotes.vercel.app',
       'https://backnotesapp.vercel.app',
     ], // Permite los dominios
-    methods: 'GET,POST,PUT,DELETE,PATCH', // Métodos permitidos
+    methods: 'GET,POST,PUT,DELETE,PATCH,OPTIONS', // Métodos permitidos
     allowedHeaders: 'Content-Type, Authorization', // Encabezados permitidos
   });
   const port = process.env.PORT || 3000;
