@@ -9,15 +9,15 @@
   "routes": [
     {
       "src": "/auth/(.*)",
-      "dest": "/backend/dist/main.js"
+      "dest": "backend/dist/main.js"
     },
     {
       "src": "/notes/(.*)",
-      "dest": "/backend/dist/main.js"
+      "dest": "backend/dist/main.js"
     },
     {
       "src": "/(.*)",
-      "dest": "/backend/dist/main.js"
+      "dest": "backend/dist/main.js"
     }
   ]
 }
