@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "deleteOutDir": true,
     "assets": [],
     "watchAssets": true,
-    "outputPath": "./dist"
+    "outputPath": "./dist" 
   }
 }
