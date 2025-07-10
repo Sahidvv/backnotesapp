@@ -1,0 +1,7 @@
+services:
+  - name: backend
+    env: node
+    plan: free
+    buildCommand: "npm run build"  # Asegúrate de que esta línea esté presente
+    startCommand: "node dist/main.js"  # Debe apuntar a la salida compilada
+    repo: https://github.com/Sahidvv/backnotesapp  # Reemplaza con tu repositorio
