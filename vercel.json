@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "backend/package.json",
+      "use": "@vercel/node",
+      "config": {
+        "maxDuration": 60
+      }
+    }
+  ],
+  "outputDirectory": "dist", 
+  "env": {
+    "DATABASE_URL": "your_database_url",
+    "JWT_SECRET": "your_jwt_secret"
+  },
+  "ignore": ["frontend/*"]
+}
