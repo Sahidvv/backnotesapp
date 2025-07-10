@@ -12,6 +12,5 @@
   "env": {
     "DATABASE_URL": "your_database_url",
     "JWT_SECRET": "your_jwt_secret"
-  },
-  "ignore": ["frontend/*"]
+  }
 }
