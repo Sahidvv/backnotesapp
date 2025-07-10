@@ -7,12 +7,13 @@ async function bootstrap() {
     origin: [
       'https://frontnotes.vercel.app',
       'https://backnotesapp.vercel.app',
-    ], // Permite los dominios
-    methods: 'GET,POST,PUT,DELETE,PATCH,OPTIONS', // Métodos permitidos
-    allowedHeaders: 'Content-Type, Authorization', // Encabezados permitidos
+    ],
+    methods: 'GET,POST,PUT,DELETE,PATCH,OPTIONS',
+    allowedHeaders: 'Content-Type, Authorization',
   });
   const port = process.env.PORT || 3000;
   await app.listen(port);
   console.log(`Application is running on: http://localhost:${port}`);
 }
-bootstrap();
+
+void bootstrap();
